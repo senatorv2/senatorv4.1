@@ -653,9 +653,9 @@ elseif matches[2] == 'english' then
 lock_group_english(msg, msg.chat_id)
 elseif matches[2] == 'arabic' then
 lock_group_persian(msg, msg.chat_id)
-elseif matches[2] == 'bot' then
+--[[elseif matches[2] == 'bot' then
 lock_group_bot(msg, msg.chat_id)
---[[elseif matches[2] == 'flood' then
+elseif matches[2] == 'flood' then
 lock_group_flood(msg, msg.chat_id)]]
 elseif matches[2] == 'fosh' then
 lock_group_fosh(msg, msg.chat_id)
@@ -698,9 +698,9 @@ elseif matches[2] == 'english' then
 unlock_group_english(msg, msg.chat_id)
 elseif matches[2] == 'arabic' then
 unlock_group_persian(msg, msg.chat_id)
-elseif matches[2] == 'bot' then
+--[[elseif matches[2] == 'bot' then
 unlock_group_bot(msg, msg.chat_id)
---[[elseif matches[2] == 'flood' then
+elseif matches[2] == 'flood' then
 unlock_group_flood(msg, msg.chat_id)]]
 elseif matches[2] == 'fosh' then
 unlock_group_fosh(msg, msg.chat_id)
