@@ -12,7 +12,6 @@ pm1 = [[🔴⚜🔐help lock🔐⚜🔴
 🔹!lock english => قفل اینگلیسی
 🔹!lock fosh => قفل فُش
 🔹!lock username(@) => قفل یوزرنیم
-🔹!lock bots  =>قفل بات API 
 🔹!lock sticker  =>قفل استیکر 
 🔹!lock tag(#)  =>قفل تگ 
 🔹!lock tgservice  =>قفل تیجی 
