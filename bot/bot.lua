@@ -51,6 +51,19 @@ function is_sudo(msg)
   end
   return var
 end
+function check_markdown(text) 
+		str = text
+		if str:match('_') then
+			output = str:gsub('_','\\_')
+		elseif str:match('*') then
+			output = str:gsub('*','\\*')
+		elseif str:match('`') then
+			output = str:gsub('`','\\`')
+		else
+			output = str
+		end
+	return output
+end
 function is_owner(msg)
   local var = false
   local group = load_data(_config.group.data)
