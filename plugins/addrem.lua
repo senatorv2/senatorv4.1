@@ -36,9 +36,9 @@ mute_audio = "no"
                   }
       }
       save_data(_config.group.data, group)
-tg.sendMessage(msg.chat_id, msg.id_, 1, 'Group has been added', 1)
+tg.sendMessage(msg.chat_id, msg.id_, 1, 'Group has💈💈 been added\n*Channel:* @senator_tea', 1)
 else
-tg.sendMessage(msg.chat_id, msg.id_, 1, 'Group already exists', 1)
+tg.sendMessage(msg.chat_id, msg.id_, 1, 'Group💈💈 already exists\n*Channel:* @senator_tea', 1)
 end
 end
 local function remgroup(msg)
@@ -47,9 +47,9 @@ local groupa = group[tostring(msg.chat_id)]
 if groupa then
 group[tostring(msg.chat_id)] = nil
       save_data(_config.group.data, group)
-tg.sendMessage(msg.chat_id, msg.id_, 1, 'Group has been removed', 1)
+tg.sendMessage(msg.chat_id, msg.id_, 1, 'Group has 💈💈 been removed\n*Channel:* @senator_tea', 1)
 else
-tg.sendMessage(msg.chat_id, msg.id_, 1, 'Group not added', 1)
+tg.sendMessage(msg.chat_id, msg.id_, 1, 'Group 💈💈 not added\n*Channel:* @senator_tea', 1)
 end
 end
 
