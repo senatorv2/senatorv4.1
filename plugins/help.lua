@@ -52,7 +52,7 @@ pm1 = [[🔴⚜🔐help lock🔐⚜🔴
 
 🔺!kick [id-username-reply] =>اخراج فرد
 ------------------------------------------------------------------------
-📢Channel: @senator_tea ]]
+📢کانال پشتیبانی تیم سناتور: \nhttps://telegram.me/joinchat/AAAAAD_2f86VIMKHSEGOlQ ]]
   tg.sendMessage(msg.chat_id_, 0, 1, pm1, 1, 'md')
 end
 end
