@@ -8,6 +8,15 @@ do local _ = {
      "owner",
       "plugins",
       "tools",
+     "help",
+      "ping",
+      "expire",
+      "rules",
+      "setlink",
+      "setrules",
+      "kick",
+      "del",
+      "link",
       "admin"
   },
   group  = {
