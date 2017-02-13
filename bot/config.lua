@@ -4,12 +4,10 @@ do local _ = {
     "bc",
     "lock",
     "msg_checks",
---    "pin",
-    "rank",
-  --    "banhammer",
---      "settings",
+    "pin",
+     "banhammer",
       "plugins",
-  --    "tools",
+      "tools",
       "admin"
   },
   group  = {
@@ -21,7 +19,7 @@ do local _ = {
     196568905
   },
 robot = {
-    0
+    338105280
   }
 }
 return _
