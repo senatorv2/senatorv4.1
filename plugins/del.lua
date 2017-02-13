@@ -12,7 +12,7 @@ local function run(msg, matches)
     if addgroup and is_owner(msg) then
     if matches[1] == 'rmsg' then
                 if tonumber(matches[2]) > 100 or tonumber(matches[2]) < 1 then
-                    pm = '*More than* 1 *and less than* 40'
+                    pm = '*More than* 1 *and less than* 100'
                    tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'md') 
                 else
                     tg.getChatHistory(chat_id, msg_id, 0, tonumber(matches[2]), delmsg, nil)
