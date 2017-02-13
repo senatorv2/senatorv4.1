@@ -30,7 +30,7 @@ if addgroup then
     if setowner then
          group[tostring(msg.chat_id_)]['set_owner'] = tostring(msg.from_id)
          save_data(_config.group.data, group)
-         tg.sendMessage(msg.chat_id, 0, 0,  '[ '..msg.from_id..' ] <b>added as owner</b>', 0)
+         tg.sendMessage(msg.chat_id, 0, 0,  '[ '..msg.from_id..' ] added as owner', 0)
 		 redis:del('setowner'..msg.chat_id_ ,true)
     end
 if promote then
@@ -79,7 +79,7 @@ if demote then
 	elseif tonumber(matches[2]) then
 	     group[tostring(msg.chat_id_)]['set_owner'] = matches[2]
              save_data(_config.group.data, group)
-         tg.sendMessage(msg.chat_id, 0, 0,  '[ '..matches[2]..' ] <b>added as owner</b>', 0)
+         tg.sendMessage(msg.chat_id, 0, 0,  '[ '..matches[2]..' ] added as owner', 0)
 	end
 	end
 if matches[1] == 'ownerset2' then
@@ -113,7 +113,7 @@ if matches[1] == 'ownerset2' then
 		local user_id = msg.from_id
         group[tostring(msg.chat_id_)]['set_owner'] = user_id
         save_data(_config.group.data, group)
-	    tg.sendMessage(msg.chat_id_, 0, 1,'[ '..msg.from_id..' ] <b>added as owner</b>', 1, 'html')
+	    tg.sendMessage(msg.chat_id_, 0, 1,'[ '..msg.from_id..' ] added as owner', 1, 'html')
 	end
 	if redis:get('promoteuser'..msg.chat_id_) then
 	    redis:del('promoteuser'..msg.chat_id_,true)
@@ -200,13 +200,13 @@ return {
     "^[#!/](setowner)$",
  "^[#!/](owner)$",
  "^[#!/](modlist)$",
-	"^[#!/](setowner) (.+)$",
+	"^[#!/](setowner)(.+)$",
     "^[#!/](promote)$",
-	"^[#!/](promote) (.+)$",
+	"^[#!/](promote)(.+)$",
     "^[#!/](demote)$",
-	"^[#!/](demote) (.+)$",
+	"^[#!/](demote)(.+)$",
 	"^[#!/](muteuser)$",
-	"^[#!/](muteuser) (.+)$",
+	"^[#!/](muteuser)(.+)$",
 	"^(ownerset)$",
 	"^!!(ownerset2)!!$",
   },
