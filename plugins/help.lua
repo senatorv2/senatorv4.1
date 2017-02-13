@@ -10,19 +10,19 @@ pm1 = [[🔴⚜🔐help lock🔐⚜🔴
 🔹!lock spam  =>قفل اسپم 
 🔹!lock inline  =>قفل اینلاین 
 🔹!lock arabic  =>قفل فارسی 
-🔹!lock english => قفل اینگلیسی
-🔹!lock fosh => قفل فُش
+🔹!lock english => قفل انگلیسی
+🔹!lock fosh => قفل فحش
 🔹!lock username (@) => قفل یوزرنیم 
 🔹!lock sticker  =>قفل استیکر 
 🔹!lock tag (#)  =>قفل تگ 
-🔹!lock tgservice  =>قفل تیجی 
-🔹!lock audio  =>قفل موزیک
-🔹!lock voice => قفل وویس
-🔹!lock photo  =>قفل تصویر 
+🔹!lock tgservice  =>قفل سرویس 
+🔹!lock audio  =>قفل آهنگ
+🔹!lock voice => قفل صدا
+🔹!lock photo  =>قفل عکس 
 🔹!lock gifs  =>قفل گیف 
 🔹!lock video  =>قفل فیلم 
 🔹!lock document  =>قفل فایل 
-🔹!lock contact =>قفل شماره تلفن
+🔹!lock contact =>قفل شماره 
 🔹!lock location => قفل موقعیت مکانی 
 🔹!lock game => قفل بازی تحت وب 
 🔹!mute all  => سایلنت گپ
@@ -52,7 +52,7 @@ pm1 = [[🔴⚜🔐help lock🔐⚜🔴
 
 🔺!kick [id-username-reply] =>اخراج فرد
 ------------------------------------------------------------------------
-📢Channel: @leaderCh ]]
+📢Channel: @senator_tea ]]
   tg.sendMessage(msg.chat_id_, 0, 1, pm1, 1, 'md')
 end
 end
