@@ -39,8 +39,8 @@ local chat = msg.chat_id_
 local user = msg.sender_user_id_
 if matches[1] == "id" and is_momod(msg) or is_owner(msg) then
 if not matches[2] and tonumber(msg.reply_to_message_id_) == 0 then
---return "*Chat ID :* [`"..chat.."`]\n*User ID :* [`"..user.."`]\n\n*channel: *@senator_tea"
-pm = '*SuperGroup ID:* [_'..msg.chat_id_..'_]\n*User ID:* [_'..msg.sender_user_id_..'_]\n\n*Channel:* @senator_tea'			
+--return "*Chat ID :* [`"..chat.."`]\n*User ID :* [`"..user.."`]\n\n🚏🚏🚏🚏🚏🚏"
+pm = '*SuperGroup ID:* [_'..msg.chat_id_..'_]\n*User ID:* [_'..msg.sender_user_id_..'_]\n\n🚏🚏🚏🚏🚏🚏'			
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'md')
         end
 if not matches[2] and tonumber(msg.reply_to_message_id_) ~= 0 then
