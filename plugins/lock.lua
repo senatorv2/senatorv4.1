@@ -30,12 +30,12 @@ local function lock_group_links(msg, target)
 local group = load_data('bot/group.json')
   local group_link_lock = group[tostring(target)]['settings']['lock_link']
   if group_link_lock == 'yes' then
-    pm = '<b>Link posting is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Link posting 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_link'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Link posting has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Link posting 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -43,12 +43,12 @@ local function lock_group_username(msg, target)
 local group = load_data('bot/group.json')
   local group_username_lock = group[tostring(target)]['settings']['lock_username']
   if group_username_lock == 'yes' then
-    pm = '<b>Send Username is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Username 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_username'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Send Username has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Username 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -56,12 +56,12 @@ local function lock_group_tag(msg, target)
 local group = load_data('bot/group.json')
   local group_tag_lock = group[tostring(target)]['settings']['lock_tag']
   if group_tag_lock == 'yes' then
-    pm = '<b>Send Tag is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Tag 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_tag'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Send Tag has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Tag 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -69,12 +69,12 @@ local function lock_group_english(msg, target)
 local group = load_data('bot/group.json')
   local group_english_lock = group[tostring(target)]['settings']['lock_english']
   if group_english_lock == 'yes' then
-    pm = '<b>English is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>English 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_english'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>English has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>English 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -82,12 +82,12 @@ local function lock_group_persian(msg, target)
 local group = load_data('bot/group.json')
   local group_persian_lock = group[tostring(target)]['settings']['lock_persian']
   if group_persian_lock == 'yes' then
-    pm = '<b>Arabic is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Arabic 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_persian'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Arabic has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Arabic 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -95,12 +95,12 @@ local function lock_group_flood(msg, target)
 local group = load_data('bot/group.json')
   local group_flood_lock = group[tostring(target)]['settings']['lock_flood']
   if group_flood_lock == 'yes' then
-    pm = '<b>Flood is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Flood 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_flood'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Flood has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Flood 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -108,12 +108,12 @@ local function lock_group_fosh(msg, target)
 local group = load_data('bot/group.json')
   local group_fosh_lock = group[tostring(target)]['settings']['lock_fosh']
   if group_fosh_lock == 'yes' then
-    pm = '<b>Fosh is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Fosh 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_fosh'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Fosh has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Fosh 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -121,12 +121,12 @@ local function lock_group_inline(msg, target)
 local group = load_data('bot/group.json')
   local group_inline_lock = group[tostring(target)]['settings']['lock_inline']
   if group_inline_lock == 'yes' then
-    pm = '<b>Inline is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Inline 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_inline'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Inline has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Inline 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -134,12 +134,12 @@ local function lock_group_sticker(msg, target)
 local group = load_data('bot/group.json')
   local group_sticker_lock = group[tostring(target)]['settings']['lock_sticker']
   if group_sticker_lock == 'yes' then
-    pm = '<b>Send Sticker is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Sticker 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_sticker'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Send Sticker has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Sticker 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -148,12 +148,12 @@ local function lock_group_contact(msg, target)
 local group = load_data('bot/group.json')
   local group_contact_lock = group[tostring(target)]['settings']['lock_contact']
   if group_contact_lock == 'yes' then
-    pm = '<b>Send Contact is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Contact 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_contact'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Send Contact has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Contact 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -161,12 +161,12 @@ local function lock_group_location(msg, target)
 local group = load_data('bot/group.json')
   local group_location_lock = group[tostring(target)]['settings']['lock_location']
   if group_location_lock == 'yes' then
-    pm = '<b>Send Location is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Location 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_location'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Send Location has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Location 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -174,12 +174,12 @@ local function lock_group_game(msg, target)
 local group = load_data('bot/group.json')
   local group_game_lock = group[tostring(target)]['settings']['lock_game']
   if group_game_lock == 'yes' then
-    pm = '<b>Send Game is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Game 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_game'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Send Game has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Game 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -188,12 +188,12 @@ local function lock_group_bot(msg, target)
 local group = load_data('bot/group.json')
   local group_bot_lock = group[tostring(target)]['settings']['lock_bot']
   if group_bot_lock == 'yes' then
-    pm = '<b>Bot api is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Bot api 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_bot'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Bot api has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Bot api 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -201,12 +201,12 @@ local function lock_group_edit(msg, target)
 local group = load_data('bot/group.json')
   local group_edit_lock = group[tostring(target)]['settings']['lock_edit']
   if group_edit_lock == 'yes' then
-    pm = '<b>Edit post is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Edit post 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_edit'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Edit post has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Edit post 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -214,12 +214,12 @@ local function lock_group_fwd(msg, target)
 local group = load_data('bot/group.json')
   local group_fwd_lock = group[tostring(target)]['settings']['lock_fwd']
   if group_fwd_lock == 'yes' then
-    pm = '<b>Forwaed is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Forwaed 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_fwd'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Forwaed has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Forwaed 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -227,12 +227,12 @@ local function lock_group_tgservice(msg, target)
 local group = load_data('bot/group.json')
   local group_tgservice_lock = group[tostring(target)]['settings']['lock_tgservice']
   if group_tgservice_lock == 'yes' then
-    pm = '<b>Tgservice is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Tgservice 💈💈 is already locked</b>\n*Channel:* @senator_tea'
   tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
 else
     group[tostring(target)]['settings']['lock_tgservice'] = 'yes'
     save_data(_config.group.data, group)
-    pm = '<b>Tgservice has been locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Tgservice 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -241,12 +241,12 @@ local function unlock_group_tgservice(msg, data, target)
 local group = load_data('bot/group.json')
   local group_tgservice_lock = group[tostring(target)]['settings']['lock_tgservice']
   if group_tgservice_lock == 'no' then
-    pm = '<b>Tgservice is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Tgservice 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_tgservice'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Tgservice has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Tgservice 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -254,12 +254,12 @@ local function unlock_group_links(msg, target)
 local group = load_data('bot/group.json')
   local group_link_lock = group[tostring(target)]['settings']['lock_link']
   if group_link_lock == 'no' then
-    pm = '<b>Link posting is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Link posting 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_link'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Link posting has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Link posting 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -267,12 +267,12 @@ local function unlock_group_english(msg, target)
 local group = load_data('bot/group.json')
   local group_english_lock = group[tostring(target)]['settings']['lock_english']
   if group_english_lock == 'no' then
-    pm = '<b>English is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>English 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_english'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>English has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>English 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -280,12 +280,12 @@ local function unlock_group_persian(msg, target)
 local group = load_data('bot/group.json')
   local group_persian_lock = group[tostring(target)]['settings']['lock_persian']
   if group_persian_lock == 'no' then
-    pm = '<b>Arabic is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Arabic 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_persian'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Arabic has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Arabic 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -306,12 +306,12 @@ local function unlock_group_fosh(msg, target)
 local group = load_data('bot/group.json')
   local group_fosh_lock = group[tostring(target)]['settings']['lock_fosh']
   if group_fosh_lock == 'no' then
-    pm = '<b>Fosh is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Fosh 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_fosh'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Fosh has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Fosh 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -319,12 +319,12 @@ local function unlock_group_inline(msg, target)
 local group = load_data('bot/group.json')
   local group_inline_lock = group[tostring(target)]['settings']['lock_inline']
   if group_inline_lock == 'no' then
-    pm = '<b>Inline is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Inline 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_inline'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Inline has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Inline 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -332,12 +332,12 @@ local function unlock_group_sticker(msg, target)
 local group = load_data('bot/group.json')
   local group_sticker_lock = group[tostring(target)]['settings']['lock_sticker']
   if group_sticker_lock == 'no' then
-    pm = '<b>Send Sticker is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Sticker 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_sticker'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Send Sticker has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Send Sticker 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -347,12 +347,12 @@ local function unlock_group_contact(msg, target)
 local group = load_data('bot/group.json')
   local group_contact_lock = group[tostring(target)]['settings']['lock_contact']
   if group_contact_lock == 'no' then
-    pm = '<b>Send Contact is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Contact 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_contact'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Send Contact has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Send Contact 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -360,12 +360,12 @@ local function unlock_group_location(msg, target)
 local group = load_data('bot/group.json')
   local group_location_lock = group[tostring(target)]['settings']['lock_location']
   if group_location_lock == 'no' then
-    pm = '<b>Send Location is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Location 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_location'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Send Location has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Send Location 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -373,12 +373,12 @@ local function unlock_group_game(msg, target)
 local group = load_data('bot/group.json')
   local group_game_lock = group[tostring(target)]['settings']['lock_game']
   if group_game_lock == 'no' then
-    pm = '<b>Send Game is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Game 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_game'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Send Game has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Send Game 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -387,12 +387,12 @@ local function unlock_group_bot(msg, target)
 local group = load_data('bot/group.json')
   local group_bot_lock = group[tostring(target)]['settings']['lock_bot']
   if group_bot_lock == 'no' then
-    pm = '<b>Bot api is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Bot api 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_bot'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Bot api has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Bot api 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -400,12 +400,12 @@ local function unlock_group_username(msg, target)
 local group = load_data('bot/group.json')
   local group_username_lock = group[tostring(target)]['settings']['lock_username']
   if group_username_lock == 'no' then
-    pm = '<b>Send Username is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Username 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_username'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Send Username has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Send Username 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -413,12 +413,12 @@ local function unlock_group_tag(msg, target)
 local group = load_data('bot/group.json')
   local group_tag_lock = group[tostring(target)]['settings']['lock_tag']
   if group_tag_lock == 'no' then
-    pm = '<b>Send Tag is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Send Tag 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_tag'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Send Tag has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Send Tag 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -426,12 +426,12 @@ local function unlock_group_edit(msg, target)
 local group = load_data('bot/group.json')
   local group_edit_lock = group[tostring(target)]['settings']['lock_edit']
   if group_edit_lock == 'no' then
-    pm = '<b>Edit post is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Edit post 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_edit'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Edit post has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Edit post 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -439,12 +439,12 @@ local function unlock_group_fwd(msg, target)
 local group = load_data('bot/group.json')
   local group_fwd_lock = group[tostring(target)]['settings']['lock_fwd']
   if group_fwd_lock == 'no' then
-    pm = '<b>Forward is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Forward 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_fwd'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Forward has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Forward 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -452,12 +452,12 @@ local function lock_group_spam(msg, target)
 local group = load_data('bot/group.json')
   local group_spam_lock = group[tostring(target)]['settings']['lock_spam']
   if group_spam_lock == 'yes' then
-    pm = '<b>Group spam is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Group spam 💈💈 is already locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_spam'] = 'yes'
     save_data(_config.group.data, group)
-    pm= '<b>Group spam has been locked</b>'
+    pm= '<b>Group spam 💈💈 has been locked</b>'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -465,12 +465,12 @@ local function unlock_group_spam(msg, target)
 local group = load_data('bot/group.json')
   local group_spamlock = group[tostring(target)]['settings']['lock_spam']
   if group_spam_lock == 'no' then
-    pm = '<b>Group spam is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Group spam 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['lock_spam'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Group spam has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Group spam 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -478,12 +478,12 @@ local function mute_all_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_all = group[tostring(target)]['settings']['mute_all']
   if mute_all  == 'yes' then
-    pm = '<b>mute all is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>mute all 💈💈 is already locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_all'] = 'yes'
     save_data(_config.group.data, group)
-    pm= '<b>mute all has been locked</b>\n*Channel:* @senator_tea'
+    pm= '<b>mute all 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -491,12 +491,12 @@ local function unmute_all_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_all = group[tostring(target)]['settings']['mute_all']
   if mute_all  == 'no' then
-    pm = '<b>mute all is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>mute all 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_all'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>mute all has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>mute all 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -504,12 +504,12 @@ local function mute_photo_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_all = group[tostring(target)]['settings']['mute_photo']
   if mute_all  == 'yes' then
-    pm = '<b>Lock photo is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock photo 💈💈 is already locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_photo'] = 'yes'
     save_data(_config.group.data, group)
-    pm= '<b>Lock photo has been locked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock photo 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -517,12 +517,12 @@ local function unmute_photo_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_all = group[tostring(target)]['settings']['mute_photo']
   if mute_all  == 'no' then
-    pm = '<b>Lock photo is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock photo 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_photo'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Lock photo has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock photo 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -530,12 +530,12 @@ local function mute_video_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_video = group[tostring(target)]['settings']['mute_video']
   if mute_video  == 'yes' then
-    pm = '<b>Lock Video is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock Video 💈💈 is already locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_video'] = 'yes'
     save_data(_config.group.data, group)
-    pm= '<b>Lock Video has been locked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock Video 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -543,12 +543,12 @@ local function unmute_video_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_video = group[tostring(target)]['settings']['mute_video']
   if mute_video  == 'no' then
-    pm = '<b>Lock Video is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock Video 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_video'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Lock Video has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock Video 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -556,12 +556,12 @@ local function mute_gif_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_gif = group[tostring(target)]['settings']['mute_gif']
   if mute_gif  == 'yes' then
-    pm = '<b>Lock Gifs is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock Gifs 💈💈 is already locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_gif'] = 'yes'
     save_data(_config.group.data, group)
-    pm= '<b>Lock Gifs has been locked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock Gifs 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -569,12 +569,12 @@ local function unmute_gif_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_gif = group[tostring(target)]['settings']['mute_gif']
   if mute_gif  == 'no' then
-    pm = '<b>Lock Gifs is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock Gifs 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_gif'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Lock Gifs has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock Gifs 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -582,12 +582,12 @@ local function mute_voice_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_voice = group[tostring(target)]['settings']['mute_voice']
   if mute_voice  == 'yes' then
-    pm = '<b>Lock Voice is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock Voice 💈💈 is already locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_voice'] = 'yes'
     save_data(_config.group.data, group)
-    pm= '<b>Lock Voice has been locked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock Voice 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -595,12 +595,12 @@ local function unmute_voice_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_voice = group[tostring(target)]['settings']['mute_voice']
   if mute_voice  == 'no' then
-    pm = '<b>Lock Voice is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock Voice 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_voice'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Lock Voice has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock Voice 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -608,12 +608,12 @@ local function mute_audio_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_audio = group[tostring(target)]['settings']['mute_audio']
   if mute_audio  == 'yes' then
-    pm = '<b>Lock Audio is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock Audio 💈💈 is already locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_audio'] = 'yes'
     save_data(_config.group.data, group)
-    pm= '<b>Lock Audio has been locked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock Audio 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -621,12 +621,12 @@ local function unmute_audio_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_audio = group[tostring(target)]['settings']['mute_audio']
   if mute_audio  == 'no' then
-    pm = '<b>Lock Audio is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock Audio 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_audio'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Lock Audio has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock Audio 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -634,12 +634,12 @@ local function mute_document_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_document = group[tostring(target)]['settings']['mute_document']
   if mute_document  == 'yes' then
-    pm = '<b>Lock Document is already locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock Document 💈💈 is already locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_document'] = 'yes'
     save_data(_config.group.data, group)
-    pm= '<b>Lock Document has been locked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock Document 💈💈 has been locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
@@ -647,12 +647,12 @@ local function unmute_document_group(msg, target)
 local group = load_data('bot/group.json')
   local mute_document = group[tostring(target)]['settings']['mute_document']
   if mute_document  == 'no' then
-    pm = '<b>Lock Document is not locked</b>\n*Channel:* @senator_tea'
+    pm = '<b>Lock Document 💈💈 is not locked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   else
     group[tostring(target)]['settings']['mute_document'] = 'no'
     save_data(_config.group.data, group)
-    pm= '<b>Lock Document has been unlocked</b>\n*Channel:* @senator_tea'
+    pm= '<b>Lock Document 💈💈 has been unlocked</b>\n*Channel:* @senator_tea'
 tg.sendMessage(msg.chat_id_, 0, 1, pm, 1, 'html')
   end
 end
