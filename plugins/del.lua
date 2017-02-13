@@ -4,7 +4,7 @@ tg.deleteMessages(v.chat_id_,{[0] = v.id_})
 end
 end
 local function run(msg, matches)
-    if matches[1] == 'clean' and is_owner(msg) then
+    if matches[1] == 'del' and is_owner(msg) then
     if msg.chat_id_:match("^-100") then
        if is_owner(msg) then
           if tonumber(matches[2]) > 100 or tonumber(matches[2]) < 1 then
@@ -26,7 +26,7 @@ end
 end
 return {
     patterns = {
-        '^[!#/]([Cc][Ll][Ee][Aa][Nn]) (%d*)$'
+        '^[!#/]([Dd][Ee][Ll]) (%d*)$'
     },
     run = run
 }
