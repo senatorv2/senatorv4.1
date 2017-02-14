@@ -9,27 +9,28 @@ pm1 = [[🔴⚜🔐help lock🔐⚜🔴
 🔹!lock fwd  =>قفل فروارد 
 🔹!lock spam  =>قفل اسپم 
 🔹!lock inline  =>قفل اینلاین 
-🔹!lock arabic  =>قفل فارسی 
+🔹!lock persian  =>قفل فارسی 
 🔹!lock english => قفل انگلیسی
 🔹!lock fosh => قفل فحش
 🔹!lock username (@) => قفل یوزرنیم 
-🔹!lock sticker  =>قفل استیکر 
 🔹!lock tag (#)  =>قفل تگ 
-🔹!lock tgservice  =>قفل سرویس 
-🔹!lock audio  =>قفل آهنگ
-🔹!lock voice => قفل صدا
-🔹!lock photo  =>قفل عکس 
-🔹!lock gifs  =>قفل گیف 
-🔹!lock video  =>قفل فیلم 
-🔹!lock document  =>قفل فایل 
+🔹!lock tg  =>قفل سرویس 
 🔹!lock contact =>قفل شماره 
 🔹!lock location => قفل موقعیت مکانی 
 🔹!lock game => قفل بازی تحت وب 
-🔹!mute all  => سایلنت گپ
-🔹!unmute all => خارج کردن گپ از سایلنت 
-
-🔴برای غیر فعال کردن قفل ها بجای lock کلمه unlock قرار دهید
-💈💈💈💈💈💈🔰
+🔹!mute all  => ممنوعیت گپ
+🔹!mute audio  =>ممنوعیت آهنگ
+🔹!mute voice => ممنوعیت صدا
+🔹!mute photo  =>ممنوعیت عکس
+🔹!mute gifs  =>ممنوعیت گیف
+🔹!mute video  =>ممنوعیت فیلم
+🔹!mute document  =>ممنوعیت فایل
+🔹!mute sticker  =>ممنوعیت استیکر
+🔴برای لغو لغو قفل ها به جای lock از کلمه unlock استفاده کنید		
+🔴برای لغو ممنوعیت به جای  mute از کلمه unmte استفاده کنید
+ 
+💈💈💈💈💈💈💈💈💈💈💈🔰		
+		
 🔵👤help Mod👤🔵
 
 🔺!promote [id-reply] =>مدیر کردن فرد 
